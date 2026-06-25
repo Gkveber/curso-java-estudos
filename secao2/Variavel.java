@@ -91,6 +91,50 @@ public static void main(String[] args) {
  
     long grandeNumero = 1_000_000L;
     System.out.println(grandeNumero + 1);
+     
+    // 8 - Double
+    double preco = 19.99;
+    System.out.println(preco);
+    System.out.println(preco - 12);
+    System.out.println(preco / 2);
+    System.out.println(preco * 3);
+
+    double pi = 3.141_592_123;
+    System.out.println(pi);
+
+    double valorcomD = 12.1D;
+    System.out.println(valorcomD);
+
+    // 9 - OP.  aritméticos p1
+
+    int soma2 = 12 + 5;
+
+    System.out.println(soma2);
+   
+    System.out.println(10 + 4);
+
+    System.out.println(10 - 5);
+
+    System.out.println(10 *5);
+
+    System.out.println(10/ 2.5);
+
+    System.out.println(10.0 / 2.5);
+
+    // para ter um resultado com casas decimais, pelo menos um dos valores da divisão deve ser do tipo double 
+
+    System.out.println(10 / 3);
+
+    System.out.println(10.0 / 3);
+
+    System.out.println(10 % 3.0);
+    
+
+
+    
+
+
+
 
 
 }
