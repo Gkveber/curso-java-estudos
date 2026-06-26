@@ -129,10 +129,69 @@ public static void main(String[] args) {
 
     System.out.println(10 % 3.0);
     
+    // 10 - OP.  aritméticos p2
 
+    int x =  5;
 
-    
+    x++; 
+    x++;
+    x++;
+    x++;
 
+    // loops -> for, while
+
+    System.out.println(x);
+
+    int y = 5;
+
+    y--;
+
+    System.out.println(y);
+
+    int a = 5;
+
+    a += 5;
+
+    // a = a + 5;
+
+    System.out.println(a);
+
+    int b = 10;
+
+    b -= 5;
+
+    System.out.println(b);
+
+    b -= a;
+
+    System.out.println(b);
+
+    // 11 - type casting
+
+    // implicito (widening) 
+    int numero2 = 42;
+
+    long numerolong = numero2;
+
+    double numerodouble = numero2;
+
+    System.out.println(numerolong);
+    System.out.println(numerodouble);
+
+    // explicito (narrowing)
+
+    double numerodouble2 = 9.78;
+
+    int valorint = (int) numerodouble2;
+
+    System.out.println(valorint);
+       
+    // casting de char para int
+    char letra3 = 'A';
+
+    int codigoASCII = (int) letra3;
+   
+    System.out.println(codigoASCII);
 
 
 
