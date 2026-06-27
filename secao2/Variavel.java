@@ -193,6 +193,34 @@ public static void main(String[] args) {
    
     System.out.println(codigoASCII);
 
+    // 12 - constantes
+    final int DIAS_DA_SEMANA = 7;
+
+    System.out.println("Dias da semana: " + DIAS_DA_SEMANA);
+
+    // 13 - Var
+    var z = 10;
+    System.out.println(z);
+
+    // z = "teste"; // não é possível alterar o tipo da variável
+    z = 5;
+
+    var texto2 = "teste";
+
+    var doubleteste = 2.0;
+
+    System.out.println(texto2);
+
+    System.out.println(doubleteste);
+
+    double altura = 1.75;
+    System.out.println(altura);
+
+    
+
+
+
+
 
 
 
