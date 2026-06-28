@@ -213,8 +213,7 @@ public static void main(String[] args) {
 
     System.out.println(doubleteste);
 
-    double altura = 1.75;
-    System.out.println(altura);
+    
 
     
 
